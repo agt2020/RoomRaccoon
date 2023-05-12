@@ -5,7 +5,7 @@ CREATE DATABASE roomraccoon CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 CREATE USER 'user'@'%' IDENTIFIED BY 'password';
 
 -- Grant all privileges on the new database to the new user
-GRANT ALL PRIVILEGES ON room_raccoon.* TO 'user'@'%';
+GRANT ALL PRIVILEGES ON roomraccoon.* TO 'user'@'%';
 
 -- Apply the privileges
 FLUSH PRIVILEGES;

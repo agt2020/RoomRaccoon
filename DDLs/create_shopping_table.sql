@@ -1,3 +1,5 @@
+-- Switch Database
+use roomraccoon;
 -- Shopping table definition
 CREATE TABLE shopping (
     id INT AUTO_INCREMENT PRIMARY KEY,
