@@ -14,6 +14,4 @@ foreach (glob(__DIR__ . '/Models/*.php') as $modelFiles) {
     include_once($modelFiles);
 }
 
-
-
 ?>
