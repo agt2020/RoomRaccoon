@@ -13,8 +13,7 @@ class View
 
 	public function build(string $file, array $data = []): string
 	{
-		$_file = $this->directory . $file . $this->extension;
-        error_log($_file);    
+		$_file = $this->directory . $file . $this->extension;  
 		if (!is_file($_file)) {
 			return '';
 		}

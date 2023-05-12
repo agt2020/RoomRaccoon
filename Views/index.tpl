@@ -1,3 +1,3 @@
 <ul>
-    <li><?= $name ?></li>
+    <?= $result ?>
 </ul>

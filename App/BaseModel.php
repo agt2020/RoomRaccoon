@@ -21,7 +21,7 @@ class Model
 		$this->dbStatement = $this->db->prepare($sql);
 	}
 
-	public function execute(array $params = [], int $type = db::FETCH_ASSOC): array
+	public function execute(array $params = [], int $type = PDO::FETCH_ASSOC): array
 	{
 		if ($this->dbStatement && $this->dbStatement->execute($params)) {
 			return $this->dbStatement->fetch($type);
